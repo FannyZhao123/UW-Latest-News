@@ -1,0 +1,60 @@
+* {
+	font-size: 20px;
+	font-family: Helvetica, Arial;
+}
+
+body {
+	background-color: #E6E6FA;
+	color: black;
+}
+
+h1 {
+	font-size: 26pt;
+}
+
+div.size_view, div.list_view {
+	float: left;
+}
+
+div.size_view {
+	margin-left: 2em;
+}
+
+div {
+    display: block;
+}
+
+#addItemBtn {
+	width: 100%;
+	margin: 8px 0;
+	background-color: lightgray;
+	width: 4em;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.single-filter {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+select{
+	background-color: #3b8ec2;
+	background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+	height: 29px;
+	overflow: hidden;
+	width: 240px;
+}
+.filter-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
